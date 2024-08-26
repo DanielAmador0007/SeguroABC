@@ -3,13 +3,11 @@ import { inject, Injectable } from '@angular/core';
 import { appsettings } from '../Settings/appsettings';
 import { Seguro } from '../Models/Seguro';
 import { Observable } from 'rxjs';
-import { PaginatedResponse } from '../Models/PaginatedResponse';
 import { PagedResult } from '../Models/PagedResult';
 
 @Injectable({
   providedIn: 'root'
 })
-
 
 export class SeguroService {
 
